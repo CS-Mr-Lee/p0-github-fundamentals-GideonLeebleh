@@ -1,5 +1,13 @@
 package com.company;
 
+/*
+*   To answer questions in work post
+*   
+*   My mob is the drowned which is basically just an underwater zombie, so it makes grrrr sounds aswell.
+*   Creepers make a hiss sound.
+*   Because the mob class is a superclass, so any subclasses underneath it (eg mobs) can have methods with the same name that do different things.
+*/
+
 class Main {
     public static void main(String[] args) {
 
