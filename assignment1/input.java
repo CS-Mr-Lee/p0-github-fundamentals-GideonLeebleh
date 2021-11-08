@@ -71,7 +71,6 @@ public class Input {
                 dAlive = dAlive + (12 - (month - month2)) * 30;
                 System.out.println("hi");
             }
-
             else if (month2 >= month)
             {
                 dAlive = dAlive + (month2 - month) * 30;
@@ -85,7 +84,6 @@ public class Input {
                 dAlive = dAlive - 30;
                 dAlive = dAlive + (30 - day) + day2;
             }
-
             else if (day2 >= day)
             {
                 dAlive = dAlive + (day2 - day);
