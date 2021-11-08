@@ -66,9 +66,7 @@ public class AddPairs {
             }
             System.out.print(" = " + var3);
         }
-
-        //if there is no odd digit out
-        else if (var2 == 0)
+        else if (var2 == 0) //if there is no odd digit out
         {
             int[] nums = new int[input.length()];
             //puts int into an array
