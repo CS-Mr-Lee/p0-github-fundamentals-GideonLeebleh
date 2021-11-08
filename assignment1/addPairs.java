@@ -8,7 +8,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class addPairs {
+public class AddPairs {
 
     public static void main(String[] args) {
 
