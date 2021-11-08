@@ -20,7 +20,7 @@ public class LeastPower {
         int num = 0;
         double num2 = 0;
         int pow = 0;
-        boolean bool = false;
+        boolean bool = false; //Serves as a way to find if input is less than 0 or not.
 
 
         //Input
