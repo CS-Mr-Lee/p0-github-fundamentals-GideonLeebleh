@@ -6,8 +6,6 @@
  *   an informative error message if there is a problem (division by zero or poor input data). The program continues looping, even if there is a problem. 
  *   Exit the loop when data entered for the numerator start with characters “q” or “Q”. Don’t print out an error message in this case. Don’t ask for the divisor 
  *   if the user just asked to quit.
-
-
  */
 package com.company;
 import java.util.Scanner;
