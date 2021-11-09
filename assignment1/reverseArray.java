@@ -1,3 +1,10 @@
+/**
+ *   Author name: Gideon Lee
+ *   Date: Nov 9 2021
+ *   Program name: Pythagorean
+ *   Program purpose: This is a program that first prompts the user for a positive integer and then finds and prints
+ *                    all Pythagorean triplets whose largest member is less than or equal to that integer.
+*/
 package com.company;
 import java.util.Arrays;
 import java.util.Scanner;
