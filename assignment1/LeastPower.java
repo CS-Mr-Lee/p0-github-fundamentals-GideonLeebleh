@@ -1,6 +1,6 @@
 /**
 *   Author name: Gideon Lee
-*   Date: Nov 8th 2021
+*   Date: Nov 8 2021
 *   Program name: LeastPower
 *   Program purpose: This is a program that reads a positive integer and then finds the smallest power of two that is greater than or equal to the number that are read.
 */
