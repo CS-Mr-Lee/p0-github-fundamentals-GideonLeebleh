@@ -11,7 +11,7 @@ import  java.util.Scanner;
 public class SlopeOrLength {
 
     //length method
-    public static double length(int x1, int x2, int y1, int y2)
+    public static double length(double x1, double x2, double y1, double y2)
     {
         double num = Math.pow((x2 - x1),2) + Math.pow((y2 - y1),2);
         num = Math.sqrt(num);
@@ -20,7 +20,7 @@ public class SlopeOrLength {
     }
 
     //slope method
-    public static double slope(int x1, int x2, int y1, int y2)
+    public static double slope(double x1, double x2, double y1, double y2)
     {
         double num = (y2 - y1) / (x2 - x1);
 
@@ -34,10 +34,10 @@ public class SlopeOrLength {
 
         Scanner in = new Scanner(System.in);
         String input;
-        int x1;
-        int x2;
-        int y1;
-        int y2;
+        double x1;
+        double x2;
+        double y1;
+        double y2;
 
 
         //input
