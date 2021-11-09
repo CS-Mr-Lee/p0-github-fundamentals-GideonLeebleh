@@ -2,7 +2,10 @@
  *   Author name: Gideon Lee
  *   Date: Nov 9 2021
  *   Program name: Encrypted
- *   Program purpose: This is a program that encrypts an inputed line of code according to the instructions given on Brightspace.
+ *   Program purpose: This is a program that encrypts an inputed line of code according to the following specifications:
+ *                    - first and last character of each string are exchanged.
+ *                    - Middle characters of each string are shifted to the character two after it in the ASCII table (works for non-letters as well.)
+ *                    - spaces are left alone
 */
 package com.company;
 import java.util.Arrays;
