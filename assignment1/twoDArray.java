@@ -3,7 +3,12 @@
  *   Author name: Gideon Lee
  *   Date: Nov 9 2021
  *   Program name: TwoDArray
- *   Program purpose: This is a program that uses a 2D array to represent the marks of a set of tests for a class of students and follow the instructions on Brightspace.
+ *   Program purpose: This is a program that will create a 2D array to represent the marks of a set of tests for a class of students and complete the following set of tasks:
+ *                    a. Ask user to enter the number of students and the number of tests
+ *                    b. Ask user to enter each of the test marks for all students
+ *                    c. Calculate and output the average of each student
+ *                    d. Output the student (represented by the number) with the highest average
+ *                    e. List the students whose average is higher than the class average
 */
 package com.company;
 import java.lang.reflect.Array;
