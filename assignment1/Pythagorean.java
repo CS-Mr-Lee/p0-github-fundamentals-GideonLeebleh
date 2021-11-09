@@ -1,6 +1,6 @@
 /**
  *   Author name: Gideon Lee
- *   Date: Nov 18 2021
+ *   Date: Nov 8 2021
  *   Program name: Pythagorean
  *   Program purpose: This is a program that first prompts the user for a positive integer and then finds and prints
  *                    all Pythagorean triplets whose largest member is less than or equal to that integer.
