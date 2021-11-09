@@ -49,6 +49,7 @@ public class TwoDArray {
 
         //Calculations
 
+        //finds the average of each student
         double [] avg = new double[numOfS];
 
         for (int i = 0; i <= numOfS - 1; i++)
@@ -74,12 +75,14 @@ public class TwoDArray {
             }
         }
 
+        //finds the class average
         for (int i = 0; i <= numOfS - 1; i++)
         {
             classAvg = classAvg + avg[i];
         }
         classAvg = classAvg / numOfS;
 
+        //finds which students are above the class average
         double [] smartKids = new double[numOfS];
         for (int i = 0; i <= numOfS - 1; i++)
         {
@@ -91,7 +94,13 @@ public class TwoDArray {
 
         System.out.println("The highest average is " + max + ", and it belongs to student " + (smartyPants + 1));
         System.out.println("The class average is " + classAvg);
-        System.out.println("Students " + Arrays.toString(smartKids) + " are above the class average grade");
+        for (int i = 0; i <= numOfS - 1; i++)
+            {
+                if (smartKids[i] != 0)
+                {
+                    System.out.println("Student " + smartKids[i] + " is above the class average");
+                }
+            }
 
     }
 }
