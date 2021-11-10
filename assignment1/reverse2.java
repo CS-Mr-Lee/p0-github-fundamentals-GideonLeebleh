@@ -15,16 +15,25 @@ public class Reverse2 {
 
         Scanner in = new Scanner(System.in);
         int[] array = new int[14];
+        int var1;
+        int var2;
 
         //Input / Calculations
 
         System.out.println("Please input 14 numbers:");
 
-        for (int i = 13; i >= 0; i--)
+        for (int i = 0; i <= 13; i++)
         {
             array[i] = in.nextInt();
         }
-
+        
+        for (int i = 0; i <= 6; i++) //loop that will reverse the array
+        {
+            var1 = array[i];
+            var2 = array[13 - i];
+            array[i] = var2;
+            array[13 - i] = var1;
+        }
 
         //Output
 
