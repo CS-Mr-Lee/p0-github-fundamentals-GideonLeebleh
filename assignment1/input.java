@@ -2,7 +2,7 @@
  *   Author name: Gideon Lee
  *   Date: Nov 8 2021
  *   Name of program: Input
- *   Program puropose: This program will take the date of birth of the user and the current day it is and calculate how many days the user has been alive and 
+ *   Program purpose: This program will take the date of birth of the user and the current day it is and calculate how many days the user has been alive and 
  *                     how many total hours the user has slept total assuming each month is exactly 30 days, there are 365 days every year, and the user gets 8 hours of 
  *                     sleep every night.
  */
