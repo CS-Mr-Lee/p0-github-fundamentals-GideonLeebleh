@@ -2,7 +2,7 @@
 *   Author name: Gideon Lee
 *   Date: Nov 8 2021
 *   Name of program: AddPairs
-*   Program puropose: This program will divide a set of numbers into pairs and then output the sum of the set of numbers.
+*   Program purpose: This program will divide a set of numbers into pairs and then output the sum of the set of numbers.
 *                     If the input is an odd number of digits, the last digit will be added with zero instead.
 */
 package com.company;
